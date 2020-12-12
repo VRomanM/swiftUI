@@ -56,7 +56,7 @@
                                         </state>
                                         <connections>
                                             <action selector="IBAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mpK-u7-P5r"/>
-                                            <segue destination="K7j-Ok-QpX" kind="show" id="8gZ-eU-cwD"/>
+                                            <segue destination="K7j-Ok-QpX" kind="presentation" modalPresentationStyle="fullScreen" id="8gZ-eU-cwD"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -109,7 +109,7 @@
             <objects>
                 <tableViewController id="yJC-Bj-267" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="q8V-V9-CdA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
@@ -138,7 +138,7 @@
             <objects>
                 <tableViewController id="H4X-rJ-N8x" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="kEr-sf-Nz0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <sections>
@@ -184,7 +184,7 @@
                 <navigationController id="BJm-fy-wQC" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Friends" id="dE9-Xe-I9U"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="yq0-6G-Teu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -200,7 +200,7 @@
             <objects>
                 <collectionViewController id="t0F-tY-gup" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="5fC-39-qFc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ftM-QD-eZ0">
@@ -254,7 +254,7 @@
             <objects>
                 <tableViewController id="W24-ZV-gua" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Sx6-Qe-ZEg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
@@ -290,7 +290,7 @@
                 <navigationController id="6gz-ZI-p2o" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Groups" id="6FZ-gs-1rC"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HMA-4h-Mwr">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
